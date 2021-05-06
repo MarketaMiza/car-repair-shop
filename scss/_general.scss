@@ -1,0 +1,126 @@
+
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+	background: url(/auto3.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+
+  // zobrazení borderu - vypni
+ /*   * {
+      outline: 1px solid white;
+  }  */
+
+
+  // hlavní obsah
+main {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+
+      font-family: $font-family-serif;
+      
+  }
+
+// obecné nastavení každého containeru
+  .container {
+    max-width: 900px;
+    margin: 0 100px;
+    
+}
+
+// logo
+  .logo {
+    font-family: $font-family-sans;
+    font-size: em(29);
+    color: $color-logo;
+    text-transform: uppercase;
+    margin-bottom: 0;
+ 
+  }
+
+  // phone
+  .phone {
+      h1 {
+        font-family: $font-family-sans;
+        font-size: em(40);
+        color: $color-number;
+        text-transform: uppercase;
+      }
+
+      a {
+        color: $color-number;
+        font-size: em(70, 40);
+        text-decoration: none;
+        list-style: none;
+        display: inline-block;
+      }
+    
+  }
+
+  // servis
+
+  h2 {
+      margin-left: 100px;
+      color: $color-logo;
+      text-transform: uppercase;
+      font-family: $font-family-sans;
+  }
+
+  .servis,
+  .odtahovka,
+  .contact,
+  .form {
+      color: white;
+      display: inline-flex;
+      line-height: 1.5;
+
+      // justify-content: space-around;
+	  // align-items: center;
+
+      li,
+      a {
+        color: $color-icon;
+       
+        text-decoration: none;
+        list-style: none;
+        
+      }
+
+      li {
+        display: block;
+      }
+
+      .list {
+          margin: 20px;
+      }
+
+      .fas {
+        vertical-align: middle;
+      }
+    
+      
+      .fas {
+          color: $color-check;
+
+        &:hover,
+        &:focus {
+          color: lighten($color-muted, 20%);
+          transition: 0.25s all ease-in-out;
+          
+        }
+      }
+
+
+  }
+
+  
+
+
+
+
+  

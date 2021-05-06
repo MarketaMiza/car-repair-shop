@@ -1,0 +1,46 @@
+.form {
+	
+	text-align: left;
+	color: white;
+
+	label {
+		font-size: em(17);
+		display: inline-block;
+		margin-bottom: em(22);
+	}
+
+	.btn {
+		font-size: 85%;
+		margin-top: 0;
+		padding: {
+			left: 2.5em;
+			right: 2.5em;
+		}
+	}
+}
+
+input,
+textarea {
+	color: $color-text;
+
+	font: {
+		size:   em(14);
+		family: $font-family-sans;
+		weight: normal;
+	}
+
+	border: 2px solid rgba( rgb(236, 216, 216), 0.1 );
+	background-color: rgba(155, 151, 151, 0.411);
+	outline: none;
+
+	padding: em(10);
+	margin-top: em(6);
+
+	display: inline-block;
+	max-width: 100%;
+	width: 100%;
+
+	&:focus {
+		border-color: rgba($color-logo, 0.5 ); 
+	}
+}  

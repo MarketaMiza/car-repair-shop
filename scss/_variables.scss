@@ -1,0 +1,36 @@
+// BARVY PRVKŮ
+$color-icon:        #e7e5e1; // HORNÍ LIŠTA, IKONKY 
+$color-logo:        #f7b300; // LOGO AUTOSERVIS SALOMON
+$color-number:      #d00000; // TELEFONNÍ ČÍSLO A ODTAHOVKA
+$color-sec-nadpis:  blue;    // NADPISY SEKCÍ (servis, odtahovka, kontakt)
+$color-check:       #f7b300;    // CHECK MARKS
+$color-text:        #fff;    // TEXT - v sekcích, jinde nejni
+
+// BARVY POZADÍ - BACKGROUND
+$color-bg: #030303;
+
+// FONT pro LOGO a zbytek textu
+$font-size-base: 100%;
+$font-family-sans: 'Roboto', sans-serif;
+$font-family-serif: 'Open Sans', sans-serif;
+
+//debuger - ON/OFF
+$debug: false;
+
+ 
+$color-muted: #777;
+$color-bg-body: #2f313c; 
+$color-footer:  #8c95ad;
+$color-sel: #06cae4;
+
+
+
+// MEDIA QUERY
+$width-sm: 400px;
+$width-md: 640px;
+$width-lg: 1024px;
+
+
+$animation-speed: .25s;
+
+$enable-rounded: true; // false-true 

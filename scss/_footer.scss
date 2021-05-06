@@ -1,0 +1,19 @@
+.site-footer {
+padding: em(30) 0;
+	color: $color-footer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: em(10);
+    
+
+	a, span {
+		color: transparentize($color-footer, .5);
+	}
+
+	a {
+		border-bottom: 1px solid darken($color-footer, 30%);
+	}
+
+	span {
+		padding-left: 250px;
+	}
+}
