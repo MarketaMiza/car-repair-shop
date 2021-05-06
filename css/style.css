@@ -105,11 +105,16 @@ main {
   margin-bottom: 0;
 }
 
+.logo h1 {
+  text-shadow: -1px 1px 0px #ab7c00;
+}
+
 .phone h1 {
   font-family: "Roboto", sans-serif;
   font-size: 2.5em;
   color: #d00000;
   text-transform: uppercase;
+  text-shadow: -1px 1px 0px #840000;
 }
 
 .phone a {
@@ -189,6 +194,19 @@ h2 {
   color: #aaaaaa;
   -webkit-transition: 0.25s all ease-in-out;
   transition: 0.25s all ease-in-out;
+}
+
+@media (max-width: 640px) {
+  main {
+    font-size: 85%;
+  }
+  main h2 br {
+    display: none;
+  }
+  .content {
+    padding-top: 3.75em;
+    padding-bottom: 3.75em;
+  }
 }
 
 .form {

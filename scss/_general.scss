@@ -35,8 +35,16 @@ main {
 
 // logo
   .logo {
+
+    h1 {
+      text-shadow: -1px 1px 0px darken( $color-logo, 15% );
+
+    }
     font-family: $font-family-sans;
     font-size: em(29);
+
+   
+
     color: $color-logo;
     text-transform: uppercase;
     margin-bottom: 0;
@@ -50,6 +58,7 @@ main {
         font-size: em(40);
         color: $color-number;
         text-transform: uppercase;
+        text-shadow: -1px 1px 0px darken( $color-number, 15% );
       }
 
       a {
@@ -58,6 +67,7 @@ main {
         text-decoration: none;
         list-style: none;
         display: inline-block;
+       
       }
     
   }
@@ -118,7 +128,21 @@ main {
 
   }
 
+  @media ( max-width: $width-md ) {
+
+    main {
+      font-size: 85%;
+      h2 br { display: none; }
+    }
   
+    .content {
+      padding: {
+        top: em(60);
+        bottom: em(60);
+      }
+    }
+  
+  }
 
 
 
